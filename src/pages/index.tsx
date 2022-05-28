@@ -1,7 +1,13 @@
+import styled from '@emotion/styled';
+
 const Home = () => (
-  <nav>
+  <Container>
     <div>hello</div>
-  </nav>
+  </Container>
 );
+
+const Container = styled.div`
+  background-color: red;
+`;
 
 export default Home;

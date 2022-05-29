@@ -4364,7 +4364,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:^4.14.167":
+"@types/lodash@npm:^4, @types/lodash@npm:^4.14.167":
   version: 4.14.182
   resolution: "@types/lodash@npm:4.14.182"
   checksum: 7dd137aa9dbabd632408bd37009d984655164fa1ecc3f2b6eb94afe35bf0a5852cbab6183148d883e9c73a958b7fec9a9bcf7c8e45d41195add6a18c34958209
@@ -7627,6 +7627,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"create-eslint-index@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "create-eslint-index@npm:1.0.0"
+  dependencies:
+    lodash.get: ^4.3.0
+  checksum: 34c859910c6873381e795f22352522c23755856ce444e95eec5bf09b640cab50ff8bbc241c61fc0362f42bb713a85ef7aeaa49d0d73d0560bf43f0a0c20b54d6
+  languageName: node
+  linkType: hard
+
 "create-hash@npm:^1.1.0, create-hash@npm:^1.1.2, create-hash@npm:^1.2.0":
   version: 1.2.0
   resolution: "create-hash@npm:1.2.0"
@@ -8447,6 +8456,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"emotion-reset@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "emotion-reset@npm:3.0.1"
+  peerDependencies:
+    "@emotion/react": ">=11"
+  checksum: 788cfbf6f31fadd22da2d61558c5f7b30da3d355d646c28e0b48f453bdd6d86dd3c55d0d8f55e3cf37c09446d597ac1ada4273244c4141467024a70b1e178fa8
+  languageName: node
+  linkType: hard
+
 "encodeurl@npm:~1.0.2":
   version: 1.0.2
   resolution: "encodeurl@npm:1.0.2"
@@ -8480,6 +8498,15 @@ __metadata:
     fast-json-parse: ^1.0.3
     objectorarray: ^1.0.5
   checksum: c352831088fce745a39ddbd5f87a17e073ea6556e7e96e9010d945a3f3020f836b9a84657123fa01e897db9216f4b080d950b5ded9bf3a8227f14a34efaaaf7c
+  languageName: node
+  linkType: hard
+
+"enhance-visitors@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "enhance-visitors@npm:1.0.0"
+  dependencies:
+    lodash: ^4.13.1
+  checksum: d01d41297eb2c726fcbc42b602b3480290b8c301fd2628a64e640480f72d237bafbe31f4c99e80b752b65292948b77be21f51b98a9b120227faecb74972ff3cf
   languageName: node
   linkType: hard
 
@@ -8712,6 +8739,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-ast-utils@npm:^1.0.0":
+  version: 1.1.0
+  resolution: "eslint-ast-utils@npm:1.1.0"
+  dependencies:
+    lodash.get: ^4.4.2
+    lodash.zip: ^4.2.0
+  checksum: f72d6875595e665e0707980f3ce36a2e812bf65989dc192c19adfce9d4ca3455c78fcb77f8ffa17a119f24916b2f0a7bf19e02dd2ff0747b9cb83dbcbecf164d
+  languageName: node
+  linkType: hard
+
 "eslint-config-airbnb-base@npm:^15.0.0":
   version: 15.0.0
   resolution: "eslint-config-airbnb-base@npm:15.0.0"
@@ -8890,6 +8927,21 @@ __metadata:
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
   checksum: 311ab993ed982d0cc7cb0ba02fbc4b36c4a94e9434f31e97f13c4d67e8ecb8aec36baecfd759ff70498846e7e11d7a197eb04c39ad64934baf3354712fd0bc9d
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-lodash-fp@npm:^2.2.0-a1":
+  version: 2.2.0-a1
+  resolution: "eslint-plugin-lodash-fp@npm:2.2.0-a1"
+  dependencies:
+    create-eslint-index: ^1.0.0
+    enhance-visitors: ^1.0.0
+    eslint-ast-utils: ^1.0.0
+    lodash: ^4.11.1
+    req-all: ^1.0.0
+  peerDependencies:
+    eslint: ">=3"
+  checksum: ae6d9454af0990195b1d9d779f4edd1b1527ca917575852872b3d8d1aeb062712de32ccb1997e75a9f9714f7f7bc0b8297d0caf49c31782bd5b889954e119052
   languageName: node
   linkType: hard
 
@@ -12829,6 +12881,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.get@npm:^4.3.0, lodash.get@npm:^4.4.2":
+  version: 4.4.2
+  resolution: "lodash.get@npm:4.4.2"
+  checksum: e403047ddb03181c9d0e92df9556570e2b67e0f0a930fcbbbd779370972368f5568e914f913e93f3b08f6d492abc71e14d4e9b7a18916c31fa04bd2306efe545
+  languageName: node
+  linkType: hard
+
 "lodash.merge@npm:^4.6.2":
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
@@ -12857,7 +12916,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21":
+"lodash.zip@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "lodash.zip@npm:4.2.0"
+  checksum: 41fd8dc1af8b38086369d4fdc81dd725715dcda36ec463d907b9c58f25e5ebb518376b0acec39ded96a6b1790a89c387b9a6b1627306f33fabaf987c8d5eac9e
+  languageName: node
+  linkType: hard
+
+"lodash@npm:^4.11.1, lodash@npm:^4.13.1, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -13749,6 +13815,7 @@ __metadata:
     "@testing-library/user-event": ^14.2.0
     "@types/babel__core": ^7
     "@types/jest": ^27.5.1
+    "@types/lodash": ^4
     "@types/node": 17.0.35
     "@types/prettier": ^2
     "@types/react": 18.0.9
@@ -13760,6 +13827,7 @@ __metadata:
     babel-loader: ^8.2.5
     cross-env: ^7.0.3
     cypress: ^9.6.1
+    emotion-reset: ^3.0.1
     eslint: 8.15.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-next: 12.1.6
@@ -13770,6 +13838,7 @@ __metadata:
     eslint-plugin-jest-dom: ^4.0.2
     eslint-plugin-jest-formatting: ^3.1.0
     eslint-plugin-jsx-a11y: ^6.5.1
+    eslint-plugin-lodash-fp: ^2.2.0-a1
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.30.0
     eslint-plugin-react-hooks: ^4.5.0
@@ -13779,6 +13848,7 @@ __metadata:
     jest: ^28.1.0
     jest-environment-jsdom: ^28.1.0
     lint-staged: ^12.4.1
+    lodash: ^4.17.21
     next: 12.1.6
     next-seo: ^5.4.0
     prettier: ^2.6.2
@@ -15780,6 +15850,13 @@ __metadata:
   dependencies:
     is-finite: ^1.0.0
   checksum: d2db0b69c5cb0c14dd750036e0abcd6b3c3f7b2da3ee179786b755cf737ca15fa0fff417ca72de33d6966056f4695440e680a352401fc02c95ade59899afbdd0
+  languageName: node
+  linkType: hard
+
+"req-all@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "req-all@npm:1.0.0"
+  checksum: d883e504e4b7cb4257281f1db34fb58d9c0412293f3356512f693807c18313177d849da5238a3db29bd56ccf111a89e8a95c3f82bb29de1cf4386a55be8bfcd7
   languageName: node
   linkType: hard
 

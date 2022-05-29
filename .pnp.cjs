@@ -54,6 +54,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/user-event", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:14.2.0"],\
             ["@types/babel__core", "npm:7.1.19"],\
             ["@types/jest", "npm:27.5.1"],\
+            ["@types/lodash", "npm:4.14.182"],\
             ["@types/node", "npm:17.0.35"],\
             ["@types/prettier", "npm:2.6.1"],\
             ["@types/react", "npm:18.0.9"],\
@@ -65,6 +66,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-loader", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:8.2.5"],\
             ["cross-env", "npm:7.0.3"],\
             ["cypress", "npm:9.7.0"],\
+            ["emotion-reset", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:3.0.1"],\
             ["eslint", "npm:8.15.0"],\
             ["eslint-config-airbnb-base", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:15.0.0"],\
             ["eslint-config-next", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:12.1.6"],\
@@ -75,6 +77,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jest-dom", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:4.0.2"],\
             ["eslint-plugin-jest-formatting", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:3.1.0"],\
             ["eslint-plugin-jsx-a11y", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:6.5.1"],\
+            ["eslint-plugin-lodash-fp", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:2.2.0-a1"],\
             ["eslint-plugin-prettier", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:4.0.0"],\
             ["eslint-plugin-react", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:7.30.0"],\
             ["eslint-plugin-react-hooks", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:4.5.0"],\
@@ -84,6 +87,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:28.1.0"],\
             ["jest-environment-jsdom", "npm:28.1.0"],\
             ["lint-staged", "npm:12.4.2"],\
+            ["lodash", "npm:4.17.21"],\
             ["next", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:12.1.6"],\
             ["next-seo", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:5.4.0"],\
             ["prettier", "npm:2.6.2"],\
@@ -12193,6 +12197,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["create-eslint-index", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/create-eslint-index-npm-1.0.0-57969a1a18-34c859910c.zip/node_modules/create-eslint-index/",\
+          "packageDependencies": [\
+            ["create-eslint-index", "npm:1.0.0"],\
+            ["lodash.get", "npm:4.4.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["create-hash", [\
         ["npm:1.2.0", {\
           "packageLocation": "./.yarn/cache/create-hash-npm-1.2.0-afd048e1ce-02a6ae3bb9.zip/node_modules/create-hash/",\
@@ -13190,6 +13204,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["emotion-reset", [\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/emotion-reset-npm-3.0.1-061e1e27b7-788cfbf6f3.zip/node_modules/emotion-reset/",\
+          "packageDependencies": [\
+            ["emotion-reset", "npm:3.0.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:3.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/emotion-reset-virtual-0a7fc51389/0/cache/emotion-reset-npm-3.0.1-061e1e27b7-788cfbf6f3.zip/node_modules/emotion-reset/",\
+          "packageDependencies": [\
+            ["emotion-reset", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:3.0.1"],\
+            ["@emotion/react", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:11.9.0"],\
+            ["@types/emotion__react", null]\
+          ],\
+          "packagePeers": [\
+            "@emotion/react",\
+            "@types/emotion__react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["encodeurl", [\
         ["npm:1.0.2", {\
           "packageLocation": "./.yarn/cache/encodeurl-npm-1.0.2-f8c8454c41-e50e3d508c.zip/node_modules/encodeurl/",\
@@ -13227,6 +13263,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dedent", "npm:0.7.0"],\
             ["fast-json-parse", "npm:1.0.3"],\
             ["objectorarray", "npm:1.0.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["enhance-visitors", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/enhance-visitors-npm-1.0.0-68023d8a26-d01d41297e.zip/node_modules/enhance-visitors/",\
+          "packageDependencies": [\
+            ["enhance-visitors", "npm:1.0.0"],\
+            ["lodash", "npm:4.17.21"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -13521,6 +13567,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["strip-json-comments", "npm:3.1.1"],\
             ["text-table", "npm:0.2.0"],\
             ["v8-compile-cache", "npm:2.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["eslint-ast-utils", [\
+        ["npm:1.1.0", {\
+          "packageLocation": "./.yarn/cache/eslint-ast-utils-npm-1.1.0-4a0bc87b04-f72d687559.zip/node_modules/eslint-ast-utils/",\
+          "packageDependencies": [\
+            ["eslint-ast-utils", "npm:1.1.0"],\
+            ["lodash.get", "npm:4.4.2"],\
+            ["lodash.zip", "npm:4.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -13860,6 +13917,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jsx-ast-utils", "npm:3.3.0"],\
             ["language-tags", "npm:1.0.5"],\
             ["minimatch", "npm:3.1.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/eslint",\
+            "eslint"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["eslint-plugin-lodash-fp", [\
+        ["npm:2.2.0-a1", {\
+          "packageLocation": "./.yarn/cache/eslint-plugin-lodash-fp-npm-2.2.0-a1-bc2b460246-ae6d9454af.zip/node_modules/eslint-plugin-lodash-fp/",\
+          "packageDependencies": [\
+            ["eslint-plugin-lodash-fp", "npm:2.2.0-a1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:2.2.0-a1", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-plugin-lodash-fp-virtual-ef14fb99a0/0/cache/eslint-plugin-lodash-fp-npm-2.2.0-a1-bc2b460246-ae6d9454af.zip/node_modules/eslint-plugin-lodash-fp/",\
+          "packageDependencies": [\
+            ["eslint-plugin-lodash-fp", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:2.2.0-a1"],\
+            ["@types/eslint", null],\
+            ["create-eslint-index", "npm:1.0.0"],\
+            ["enhance-visitors", "npm:1.0.0"],\
+            ["eslint", "npm:8.15.0"],\
+            ["eslint-ast-utils", "npm:1.1.0"],\
+            ["lodash", "npm:4.17.21"],\
+            ["req-all", "npm:1.0.0"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -18356,6 +18440,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["lodash.get", [\
+        ["npm:4.4.2", {\
+          "packageLocation": "./.yarn/cache/lodash.get-npm-4.4.2-7bda64ed87-e403047ddb.zip/node_modules/lodash.get/",\
+          "packageDependencies": [\
+            ["lodash.get", "npm:4.4.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["lodash.merge", [\
         ["npm:4.6.2", {\
           "packageLocation": "./.yarn/cache/lodash.merge-npm-4.6.2-77cb4416bf-ad580b4bdb.zip/node_modules/lodash.merge/",\
@@ -18388,6 +18481,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash.uniq-npm-4.5.0-7c270dca85-a4779b57a8.zip/node_modules/lodash.uniq/",\
           "packageDependencies": [\
             ["lodash.uniq", "npm:4.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.zip", [\
+        ["npm:4.2.0", {\
+          "packageLocation": "./.yarn/cache/lodash.zip-npm-4.2.0-5299417ec8-41fd8dc1af.zip/node_modules/lodash.zip/",\
+          "packageDependencies": [\
+            ["lodash.zip", "npm:4.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -19362,6 +19464,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/user-event", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:14.2.0"],\
             ["@types/babel__core", "npm:7.1.19"],\
             ["@types/jest", "npm:27.5.1"],\
+            ["@types/lodash", "npm:4.14.182"],\
             ["@types/node", "npm:17.0.35"],\
             ["@types/prettier", "npm:2.6.1"],\
             ["@types/react", "npm:18.0.9"],\
@@ -19373,6 +19476,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-loader", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:8.2.5"],\
             ["cross-env", "npm:7.0.3"],\
             ["cypress", "npm:9.7.0"],\
+            ["emotion-reset", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:3.0.1"],\
             ["eslint", "npm:8.15.0"],\
             ["eslint-config-airbnb-base", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:15.0.0"],\
             ["eslint-config-next", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:12.1.6"],\
@@ -19383,6 +19487,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jest-dom", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:4.0.2"],\
             ["eslint-plugin-jest-formatting", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:3.1.0"],\
             ["eslint-plugin-jsx-a11y", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:6.5.1"],\
+            ["eslint-plugin-lodash-fp", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:2.2.0-a1"],\
             ["eslint-plugin-prettier", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:4.0.0"],\
             ["eslint-plugin-react", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:7.30.0"],\
             ["eslint-plugin-react-hooks", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:4.5.0"],\
@@ -19392,6 +19497,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:28.1.0"],\
             ["jest-environment-jsdom", "npm:28.1.0"],\
             ["lint-staged", "npm:12.4.2"],\
+            ["lodash", "npm:4.17.21"],\
             ["next", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:12.1.6"],\
             ["next-seo", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:5.4.0"],\
             ["prettier", "npm:2.6.2"],\
@@ -21710,6 +21816,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["repeating", "npm:2.0.1"],\
             ["is-finite", "npm:1.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["req-all", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/req-all-npm-1.0.0-6196f3ccb7-d883e504e4.zip/node_modules/req-all/",\
+          "packageDependencies": [\
+            ["req-all", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\

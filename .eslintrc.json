@@ -12,19 +12,21 @@
     "prettier",
     "@typescript-eslint",
     "storybook",
-    "@emotion"
+    "@emotion",
+    "lodash-fp"
   ],
   "extends": [
     "eslint:recommended",
+    "plugin:lodash-fp/recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:prettier/recommended",
     "plugin:import/recommended",
     "plugin:storybook/recommended",
     "next",
     "next/core-web-vitals",
-    "airbnb-base"
+    "airbnb-base",
+    "prettier"
   ],
   "rules": {
     "import/extensions": [
@@ -39,10 +41,14 @@
     ],
     "no-console": ["error", { "allow": ["warn", "error"] }],
     "@typescript-eslint/no-var-requires": "off",
+    "operator-linebreak": "off",
+    "implicit-arrow-linebreak": "off",
     "@typescript-eslint/no-unused-vars": ["error"],
     "import/prefer-default-export": "off",
     "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["off"]
+    "@typescript-eslint/no-use-before-define": ["off"],
+    "lodash-fp/no-unused-result": "warn",
+    "lodash-fp/no-extraneous-function-wrapping": "warn"
   },
   "overrides": [
     // testing

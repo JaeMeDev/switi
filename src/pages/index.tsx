@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { getColor } from 'src/utils/themeUtils';
 
 const Home = () => (
   <Container>
@@ -7,7 +8,7 @@ const Home = () => (
 );
 
 const Container = styled.div`
-  background-color: red;
+  background-color: ${getColor('aquaMarine')};
 `;
 
 export default Home;

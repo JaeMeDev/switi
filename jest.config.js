@@ -7,6 +7,12 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   setupFilesAfterEnv: ['./jest.setup.js'],
   moduleDirectories: ['node_modules', '<rootDir>/'],
+  moduleNameMapper: {
+    '^@components/(.*)$': '<rootDir>/src/components/$1',
+    '^@pages/(.*)$': '<rootDir>/src/pages/$1',
+    '^@styles/(.*)$': '<rootDir>/src/styles/$1',
+    '^@utils/(.*)$': '<rootDir>/src/utils/$1',
+  },
   testPathIgnorePatterns: [
     'node_modules',
     '<rootDir>/public/',

@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { getColor } from '../../../utils/themeUtils';
+import { getColor } from '@utils/themeUtils';
 import { ButtonSize } from './interface';
 
 export const ButtonWrapper = styled.button<{

@@ -1,7 +1,7 @@
 import { ThemeProvider } from '@emotion/react';
 import { render, screen } from '@testing-library/react';
-import Button, { ButtonProps } from './Button';
-import theme from '../../../styles/theme';
+import theme from '@styles/theme';
+import Button, { ButtonProps } from '.';
 
 describe('Button', () => {
   const renderButton = ({ onClick, size, disabled }: ButtonProps) =>

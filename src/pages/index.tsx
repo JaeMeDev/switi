@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import Button from 'src/components/base/Button/Button';
-import { getColor } from '../utils/themeUtils';
+import Button from '@components/base/Button';
+import { getColor } from '@utils/themeUtils';
 
 const Home = () => (
   <Container>

@@ -1,5 +1,5 @@
 import { Theme } from '@emotion/react';
-import { ThemeColors } from '../styles/theme';
+import { ThemeColors } from '@styles/theme';
 
 interface ThemeProps {
   theme: Theme;

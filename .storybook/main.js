@@ -13,6 +13,7 @@ module.exports = {
     '@storybook/addon-interactions',
   ],
   framework: '@storybook/react',
+  staticDirs: ['../public'],
   webpackFinal: async (config) => {
     config.resolve.plugins.push(new TsconfigPathsPlugin({}));
 

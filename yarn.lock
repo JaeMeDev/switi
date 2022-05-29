@@ -3176,7 +3176,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-viewport@npm:6.5.5":
+"@storybook/addon-viewport@npm:6.5.5, @storybook/addon-viewport@npm:^6.5.5":
   version: 6.5.5
   resolution: "@storybook/addon-viewport@npm:6.5.5"
   dependencies:
@@ -3203,7 +3203,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addons@npm:6.5.5":
+"@storybook/addons@npm:6.5.5, @storybook/addons@npm:^6.5.5":
   version: 6.5.5
   resolution: "@storybook/addons@npm:6.5.5"
   dependencies:
@@ -3985,7 +3985,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/theming@npm:6.5.5":
+"@storybook/theming@npm:6.5.5, @storybook/theming@npm:^6.5.5":
   version: 6.5.5
   resolution: "@storybook/theming@npm:6.5.5"
   dependencies:
@@ -13807,8 +13807,11 @@ __metadata:
     "@storybook/addon-essentials": ^6.5.5
     "@storybook/addon-interactions": ^6.5.5
     "@storybook/addon-links": ^6.5.5
+    "@storybook/addon-viewport": ^6.5.5
+    "@storybook/addons": ^6.5.5
     "@storybook/react": ^6.5.5
     "@storybook/testing-library": ^0.0.11
+    "@storybook/theming": ^6.5.5
     "@testing-library/cypress": ^8.0.2
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^13.2.0

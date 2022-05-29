@@ -1,9 +1,10 @@
 import styled from '@emotion/styled';
-import { getColor } from 'src/utils/themeUtils';
+import Button from 'src/components/base/Button/Button';
+import { getColor } from '../utils/themeUtils';
 
 const Home = () => (
   <Container>
-    <div>hello</div>
+    <Button onClick={() => null}>hello</Button>
   </Container>
 );
 

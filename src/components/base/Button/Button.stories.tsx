@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from 'react';
+import React, { WithChildren } from 'react';
 import styled from '@emotion/styled';
 import { Story, Meta } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
@@ -9,7 +9,7 @@ export default {
   component: Button,
 } as Meta;
 
-const Template: Story<PropsWithChildren<ButtonProps>> = (args) => (
+const Template: Story<WithChildren<ButtonProps>> = (args) => (
   <Container>
     <Button {...args} />
   </Container>

@@ -1,4 +1,4 @@
-import React, { FC, PropsWithChildren } from 'react';
+import React, { FCWithChildren } from 'react';
 import { ButtonWrapper } from './style';
 import { ButtonSize } from './interface';
 
@@ -8,7 +8,7 @@ export interface ButtonProps {
   onClick: () => void;
 }
 
-const Button: FC<PropsWithChildren<ButtonProps>> = ({
+const Button: FCWithChildren<ButtonProps> = ({
   children,
   size = 'full',
   disabled,

@@ -53,3 +53,7 @@ cypress/videos
 cypress/log
 
 storybook-static
+
+# Generated via next-pwa
+**/public/workbox**
+**/public/sw**

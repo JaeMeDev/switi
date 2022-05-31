@@ -1,7 +1,7 @@
 import { DefaultSeoProps } from 'next-seo';
 
-const defaultTitle = '프로젝트 Title';
-const defaultDescription = '프로젝트 Description';
+const defaultTitle = 'switi';
+const defaultDescription = 'switi application';
 const defaultUrl = 'http://localhost:3000';
 
 const defaultNextSeoConfig: DefaultSeoProps = {

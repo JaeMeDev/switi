@@ -1,13 +1,3 @@
-## Summary
+## 💁 설명 <!-- 무엇에 대한 PR인지 설명해주세요. -->
 
-<!--
- Explain the **motivation** for making this change. What existing problem does the pull request solve?
--->
-
-## How did you test this change?
-
-<!--
-  Demonstrate the code is solid. Example: The exact commands you ran and their output, screenshots / videos if the pull request changes the user interface.
-  How exactly did you verify that your PR solves the issue you wanted to solve?
-  If you leave this empty, your PR will very likely be closed.
--->
+## 🚨 PR 포인트 <!-- PR을 볼 때 중점적으로 봐야 할 부분을 적어주세요-->

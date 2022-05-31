@@ -49,7 +49,8 @@
     "@typescript-eslint/no-use-before-define": ["off"],
     "lodash-fp/no-unused-result": "warn",
     "lodash-fp/no-extraneous-function-wrapping": "warn",
-    "class-methods-use-this": "off"
+    "class-methods-use-this": "off",
+    "no-shadow": "off"
   },
   "overrides": [
     // testing

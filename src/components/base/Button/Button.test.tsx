@@ -4,10 +4,10 @@ import theme from '@styles/theme';
 import Button, { ButtonProps } from '.';
 
 describe('Button', () => {
-  const renderButton = ({ onClick, size, disabled }: ButtonProps) =>
+  const renderButton = ({ onClick, disabled, type }: ButtonProps) =>
     render(
       <ThemeProvider theme={theme}>
-        <Button onClick={onClick} size={size} disabled={disabled}>
+        <Button type={type} onClick={onClick} disabled={disabled}>
           버튼
         </Button>
       </ThemeProvider>,
@@ -18,7 +18,7 @@ describe('Button', () => {
       renderButton({ onClick: () => null });
 
       expect(screen.getByText('버튼')).toHaveStyle({
-        backgroundColor: '#4fd5a7',
+        backgroundColor: theme.colors.aquaMarine,
       });
     });
 
@@ -26,7 +26,25 @@ describe('Button', () => {
       renderButton({ disabled: true, onClick: () => null });
 
       expect(screen.getByText('버튼')).toHaveStyle({
-        backgroundColor: '#dcdcdc',
+        backgroundColor: theme.colors.grey,
+      });
+    });
+
+    it('Close 버튼', () => {
+      renderButton({ type: 'CLOSE', disabled: true, onClick: () => null });
+
+      expect(screen.getByText('버튼')).toHaveStyle({
+        backgroundColor: theme.colors.lightGrey,
+        color: theme.colors.brownGrey,
+      });
+    });
+
+    it('Small 버튼', () => {
+      renderButton({ type: 'SMALL', disabled: true, onClick: () => null });
+
+      expect(screen.getByText('버튼')).toHaveStyle({
+        width: '62px',
+        height: '28px',
       });
     });
   });

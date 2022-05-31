@@ -1,20 +1,20 @@
 import React, { FCWithChildren } from 'react';
 import { ButtonWrapper } from './style';
-import { ButtonSize } from './interface';
+import { ButtonType } from './interface';
 
 export interface ButtonProps {
-  size?: ButtonSize;
+  type?: ButtonType;
   disabled?: boolean;
   onClick: () => void;
 }
 
 const Button: FCWithChildren<ButtonProps> = ({
   children,
-  size = 'full',
+  type = 'NORMAL',
   disabled,
   onClick,
 }) => (
-  <ButtonWrapper size={size} disabled={disabled} onClick={onClick}>
+  <ButtonWrapper buttonType={type} disabled={disabled} onClick={onClick}>
     {children}
   </ButtonWrapper>
 );

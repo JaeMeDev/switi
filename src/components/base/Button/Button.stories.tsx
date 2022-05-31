@@ -20,10 +20,37 @@ const Container = styled.div`
   width: 100%;
 `;
 
-export const Primary = Template.bind({});
+export const PrimaryButton = Template.bind({});
 
-Primary.args = {
-  children: 'text',
+PrimaryButton.args = {
+  children: 'OK',
   onClick: action('click'),
   disabled: false,
+  type: 'NORMAL',
+};
+
+export const CloseButton = Template.bind({});
+
+CloseButton.args = {
+  children: 'CLOSE',
+  onClick: action('click'),
+  disabled: false,
+  type: 'CLOSE',
+};
+
+export const SmallButton = Template.bind({});
+
+SmallButton.args = {
+  children: 'Small',
+  onClick: action('click'),
+  disabled: false,
+  type: 'SMALL',
+};
+
+export const DisabledButton = Template.bind({});
+
+DisabledButton.args = {
+  children: 'Disabled',
+  onClick: action('click'),
+  disabled: true,
 };

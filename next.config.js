@@ -10,10 +10,19 @@ module.exports = withBundleAnalyzer(
       dirs: ['.'],
     },
     pwa: {
+      disable: process.env.NODE_ENV === 'development',
       dest: 'public',
-      runtimeCaching
+      runtimeCaching,
     },
     poweredByHeader: false,
     reactStrictMode: true,
+    compiler: {
+      reactRemoveProperties: process.env.NODE_ENV === 'production' && {
+        properties: ['^data-test'],
+      },
+      removeConsole: {
+        exclude: ['error'],
+      },
+    },
   }),
 );

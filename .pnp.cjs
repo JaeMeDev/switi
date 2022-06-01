@@ -98,6 +98,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:18.1.0"],\
             ["start-server-and-test", "npm:1.14.0"],\
+            ["storybook-addon-next-router", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:4.0.0"],\
             ["tsconfig-paths-webpack-plugin", "npm:3.5.2"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"]\
           ],\
@@ -19938,6 +19939,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:18.1.0"],\
             ["start-server-and-test", "npm:1.14.0"],\
+            ["storybook-addon-next-router", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:4.0.0"],\
             ["tsconfig-paths-webpack-plugin", "npm:3.5.2"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"]\
           ],\
@@ -23357,6 +23359,49 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/store2-npm-2.13.2-3a5342d311-9e760ea2a7.zip/node_modules/store2/",\
           "packageDependencies": [\
             ["store2", "npm:2.13.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["storybook-addon-next-router", [\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/storybook-addon-next-router-npm-4.0.0-64f410639f-3e203fe069.zip/node_modules/storybook-addon-next-router/",\
+          "packageDependencies": [\
+            ["storybook-addon-next-router", "npm:4.0.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:4.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/storybook-addon-next-router-virtual-2f4a0ce08d/0/cache/storybook-addon-next-router-npm-4.0.0-64f410639f-3e203fe069.zip/node_modules/storybook-addon-next-router/",\
+          "packageDependencies": [\
+            ["storybook-addon-next-router", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:4.0.0"],\
+            ["@storybook/addon-actions", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:6.5.5"],\
+            ["@storybook/addons", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:6.5.5"],\
+            ["@storybook/client-api", null],\
+            ["@types/next", null],\
+            ["@types/react", "npm:18.0.9"],\
+            ["@types/react-dom", "npm:18.0.4"],\
+            ["@types/storybook__addon-actions", null],\
+            ["@types/storybook__addons", null],\
+            ["@types/storybook__client-api", null],\
+            ["next", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:12.1.6"],\
+            ["react", "npm:18.1.0"],\
+            ["react-dom", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:18.1.0"],\
+            ["tslib", "npm:2.4.0"]\
+          ],\
+          "packagePeers": [\
+            "@storybook/addon-actions",\
+            "@storybook/addons",\
+            "@storybook/client-api",\
+            "@types/next",\
+            "@types/react-dom",\
+            "@types/react",\
+            "@types/storybook__addon-actions",\
+            "@types/storybook__addons",\
+            "@types/storybook__client-api",\
+            "next",\
+            "react-dom",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\

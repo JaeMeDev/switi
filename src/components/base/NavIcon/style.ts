@@ -14,6 +14,7 @@ export const IconWrapper = styled.a<{ active: boolean }>`
       getColor(props.active ? 'lightTeal' : 'lightGrey')(props)};
     transition: color 250ms;
   }
+  font-size: 12px;
 `;
 
 export const Icon = styled.div`

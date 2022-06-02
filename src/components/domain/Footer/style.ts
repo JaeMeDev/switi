@@ -10,5 +10,5 @@ export const Navigation = styled.nav`
   justify-content: space-between;
   position: fixed;
   bottom: 0;
-  padding: 5px;
+  padding: 10px 0;
 `;

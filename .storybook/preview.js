@@ -1,9 +1,17 @@
+import * as NextImage from 'next/image';
 import { addDecorator } from '@storybook/react';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { RouterContext } from 'next/dist/shared/lib/router-context';
 import { ThemeProvider } from '@emotion/react';
 import theme from '../src/styles/theme';
 import GlobalStyle from '../src/styles/GlobalStyles';
+
+const OriginalNextImage = NextImage.default;
+
+Object.defineProperty(NextImage, 'default', {
+  configurable: true,
+  value: (props) => <OriginalNextImage {...props} unoptimized />,
+});
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -20,7 +28,7 @@ export const parameters = {
   nextRouter: {
     Provider: RouterContext.Provider,
   },
-  layout: 'fullscreen'
+  layout: 'fullscreen',
 };
 
 addDecorator((Story) => (

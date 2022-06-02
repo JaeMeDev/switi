@@ -9,6 +9,10 @@ const styles = css`
   body {
     font-family: 'Noto Sans KR', sans-serif;
   }
+
+  a{
+    text-decoration: none;
+  }
 `;
 
 const GlobalStyle = () => <Global styles={styles} />;

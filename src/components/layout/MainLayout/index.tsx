@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '@components/domain/Header';
 import Footer from '@components/domain/Footer';
-import { ComponentWrapper } from './style';
+import { ComponentWrapper } from '@styles/shared';
 
 export interface MainLayoutProps {
   title?: string;

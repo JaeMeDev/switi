@@ -10,6 +10,7 @@ const colors = {
   slateGrey: '#707071',
   darkCream: '#ffdd94',
   aquaMarine: '#4fd5a7',
+  greyLine: '#f3f3f3',
 };
 
 const theme = {

@@ -50,7 +50,8 @@
     "lodash-fp/no-unused-result": "warn",
     "lodash-fp/no-extraneous-function-wrapping": "warn",
     "class-methods-use-this": "off",
-    "no-shadow": "off"
+    "no-shadow": "off",
+    "jsx-a11y/anchor-is-valid": "off"
   },
   "overrides": [
     // testing

@@ -3,11 +3,11 @@ import SeoTitle from '@components/base/SeoTitle';
 import HeaderTitle from '@components/base/HeaderTitle';
 import { HeaderWrapper } from './style';
 
-export interface MainHeaderProps {
+export interface HeaderProps {
   title?: string;
 }
 
-const MainHeader: React.FC<MainHeaderProps> = ({ title }) => (
+const Header: React.FC<HeaderProps> = ({ title }) => (
   <>
     <SeoTitle title={title} />
     <HeaderWrapper>
@@ -16,4 +16,4 @@ const MainHeader: React.FC<MainHeaderProps> = ({ title }) => (
   </>
 );
 
-export default MainHeader;
+export default Header;

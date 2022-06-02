@@ -1,5 +1,5 @@
 import React from 'react';
-import MainHeader from '@components/domain/MainHeader';
+import Header from '@components/domain/Header';
 import Footer from '@components/domain/Footer';
 import { ComponentWrapper } from './style';
 
@@ -12,7 +12,7 @@ const MainLayout: React.FCWithChildren<MainLayoutProps> = ({
   title,
 }) => (
   <>
-    <MainHeader title={title} />
+    <Header title={title} />
     <ComponentWrapper>{children}</ComponentWrapper>
     <Footer />
   </>

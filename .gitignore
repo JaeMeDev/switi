@@ -57,3 +57,5 @@ storybook-static
 # Generated via next-pwa
 **/public/workbox**
 **/public/sw**
+
+.env

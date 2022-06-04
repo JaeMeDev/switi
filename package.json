@@ -24,6 +24,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@prisma/client": "3.14.0",
     "gray-matter": "^4.0.3",
     "lodash": "^4.17.21",
     "next": "12.1.6",
@@ -94,6 +95,7 @@
     "jest-environment-jsdom": "^28.1.0",
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
+    "prisma": "3.14.0",
     "start-server-and-test": "^1.14.0",
     "storybook-addon-next-router": "^4.0.0",
     "tsconfig-paths-webpack-plugin": "^3.5.2",

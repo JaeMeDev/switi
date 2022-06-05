@@ -5392,6 +5392,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@yarnpkg/nm@npm:^4.0.0-rc.6":
+  version: 4.0.0-rc.6
+  resolution: "@yarnpkg/nm@npm:4.0.0-rc.6"
+  dependencies:
+    "@yarnpkg/core": ^4.0.0-rc.6
+    "@yarnpkg/fslib": ^3.0.0-rc.6
+  checksum: a42f3c029e4ec3c3eec5394dacc51a980f42635b0ea8b1a83be2ec0ac5e8d5115acb8b70bf7563f02ffa1f2f0422ecc6e91ef16a59a5796cdf60bb452bcdfa96
+  languageName: node
+  linkType: hard
+
 "@yarnpkg/parsers@npm:^3.0.0-rc.6":
   version: 3.0.0-rc.6
   resolution: "@yarnpkg/parsers@npm:3.0.0-rc.6"
@@ -5399,6 +5409,21 @@ __metadata:
     js-yaml: ^3.10.0
     tslib: ^1.13.0
   checksum: fe3131c0e330a753a238ba5ac9ba9111701d79d83e7dd88467c116bf341dc94eba8eb5ef599fca33886948ec6e3f93e1515d4e10f76b33a2a23bbf89ae4b5a17
+  languageName: node
+  linkType: hard
+
+"@yarnpkg/pnpify@npm:^4.0.0-rc.6":
+  version: 4.0.0-rc.6
+  resolution: "@yarnpkg/pnpify@npm:4.0.0-rc.6"
+  dependencies:
+    "@yarnpkg/core": ^4.0.0-rc.6
+    "@yarnpkg/fslib": ^3.0.0-rc.6
+    "@yarnpkg/nm": ^4.0.0-rc.6
+    clipanion: ^3.2.0-rc.10
+    tslib: ^1.13.0
+  bin:
+    pnpify: ./lib/cli.js
+  checksum: 29f3a4173f0ea28d8f503a8f654d73f06674ab77888089230e4c9c3719d51c8958a916fd643129b65f2508c1731046abf51dbb20594521b0c541c89bad22d001
   languageName: node
   linkType: hard
 
@@ -14641,6 +14666,7 @@ __metadata:
     "@types/testing-library__jest-dom": ^5
     "@typescript-eslint/eslint-plugin": ^5.25.0
     "@typescript-eslint/parser": ^5.25.0
+    "@yarnpkg/pnpify": ^4.0.0-rc.6
     "@yarnpkg/sdks": ^3.0.0-rc.6
     babel-loader: ^8.2.5
     cross-env: ^7.0.3

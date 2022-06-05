@@ -51,7 +51,9 @@
     "lodash-fp/no-extraneous-function-wrapping": "warn",
     "class-methods-use-this": "off",
     "no-shadow": "off",
-    "jsx-a11y/anchor-is-valid": "off"
+    "jsx-a11y/anchor-is-valid": "off",
+    "no-var": "off",
+    "vars-on-top": "off"
   },
   "overrides": [
     // testing

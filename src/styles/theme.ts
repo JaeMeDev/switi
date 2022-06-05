@@ -11,6 +11,8 @@ const colors = {
   darkCream: '#ffdd94',
   aquaMarine: '#4fd5a7',
   greyLine: '#f3f3f3',
+  green: '#40a436',
+  yellow: '#ffdf00',
 };
 
 const theme = {

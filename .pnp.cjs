@@ -73,6 +73,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cross-env", "npm:7.0.3"],\
             ["cypress", "npm:9.7.0"],\
             ["emotion-reset", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:3.0.1"],\
+            ["encoding", "npm:0.1.13"],\
             ["eslint", "npm:8.15.0"],\
             ["eslint-config-airbnb-base", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:15.0.0"],\
             ["eslint-config-next", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:12.1.6"],\
@@ -20586,6 +20587,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cross-env", "npm:7.0.3"],\
             ["cypress", "npm:9.7.0"],\
             ["emotion-reset", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:3.0.1"],\
+            ["encoding", "npm:0.1.13"],\
             ["eslint", "npm:8.15.0"],\
             ["eslint-config-airbnb-base", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:15.0.0"],\
             ["eslint-config-next", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:12.1.6"],\

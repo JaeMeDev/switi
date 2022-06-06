@@ -1,9 +1,8 @@
 import { ReactNode } from 'react';
 import { useTheme } from '@emotion/react';
-import { LoginType } from '@models/login';
 
 export default (
-  type: LoginType,
+  type: string,
 ): { title: string; svgIcon: ReactNode; buttonColor: string } => {
   const theme = useTheme();
 

@@ -1,10 +1,9 @@
 import React from 'react';
-import { LoginType } from '@models/login';
 import { ButtonWrapper, IconWrapper, Text } from './style';
 import useLoginItem from './useLoginItem';
 
 export interface LoginButtonProps {
-  loginType: LoginType;
+  loginType: string;
   onClick: () => void;
 }
 

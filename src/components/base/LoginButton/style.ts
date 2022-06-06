@@ -1,6 +1,5 @@
 import styled from '@emotion/styled';
 import { getColor } from '@utils/themeUtils';
-import { LoginType } from '@models/login';
 
 export const ButtonWrapper = styled.div<{ buttonColor: string }>`
   display: flex;
@@ -20,7 +19,7 @@ export const IconWrapper = styled.div`
   height: 24px;
 `;
 
-export const Text = styled.p<{ loginType: LoginType }>`
+export const Text = styled.p<{ loginType: string }>`
   font-size: 14px;
   font-weight: 500;
   color: ${(props) =>

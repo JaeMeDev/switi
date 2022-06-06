@@ -8,6 +8,7 @@ import client from '@libs/server/client';
 
 export default NextAuth({
   adapter: PrismaAdapter(client),
+  secret: process.env.NEXTAUTH_SECRET,
   session: {
     strategy: 'jwt',
   },

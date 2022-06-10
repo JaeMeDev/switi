@@ -3,7 +3,6 @@ import matter from 'gray-matter';
 import remarkHtml from 'remark-html';
 import remarkParse from 'remark-parse/lib';
 import { unified } from 'unified';
-import { NoticeItem } from '@models/notice';
 import PageLayout from '@components/layout/PageLayout';
 import NoticePost from '@components/domain/NoticePost';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import _ from 'lodash/fp';
+import map from 'lodash/fp/map';
 import { ClientSafeProvider, signIn } from 'next-auth/react';
 import LoginButton from '@components/base/LoginButton';
 import { ButtonsWrapper } from './style';
@@ -15,7 +15,7 @@ const LoginButtons: React.FC<LoginButtonsProps> = ({ providers }) => {
 
   return (
     <ButtonsWrapper>
-      {_.map<ClientSafeProvider, React.ReactNode>((provider) => (
+      {map<ClientSafeProvider, React.ReactNode>((provider) => (
         <LoginButton
           key={provider.id}
           loginType={provider.id}

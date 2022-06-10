@@ -108,6 +108,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["remark-parse", "npm:10.0.1"],\
             ["start-server-and-test", "npm:1.14.0"],\
             ["storybook-addon-next-router", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:4.0.0"],\
+            ["supports-color", "npm:9.2.2"],\
             ["tsconfig-paths-webpack-plugin", "npm:3.5.2"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"],\
             ["unified", "npm:10.1.2"]\
@@ -20622,6 +20623,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["remark-parse", "npm:10.0.1"],\
             ["start-server-and-test", "npm:1.14.0"],\
             ["storybook-addon-next-router", "virtual:cd7bc5def67cb39d3a91e0cb695939214056f847208c4cd0b014dda94146e952733022014cf0cc5631162cf00d268f1c0dc36730266b19c32fa7475eb31b3b02#npm:4.0.0"],\
+            ["supports-color", "npm:9.2.2"],\
             ["tsconfig-paths-webpack-plugin", "npm:3.5.2"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"],\
             ["unified", "npm:10.1.2"]\

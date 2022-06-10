@@ -14763,6 +14763,7 @@ __metadata:
     remark-parse: ^10.0.1
     start-server-and-test: ^1.14.0
     storybook-addon-next-router: ^4.0.0
+    supports-color: ^9.2.2
     tsconfig-paths-webpack-plugin: ^3.5.2
     typescript: 4.6.4
     unified: ^10.1.2
@@ -18308,7 +18309,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"supports-color@npm:^9.2.1":
+"supports-color@npm:^9.2.1, supports-color@npm:^9.2.2":
   version: 9.2.2
   resolution: "supports-color@npm:9.2.2"
   checksum: 976d84877402fc38c1d43b1fde20b0a8dc0283273f21cfebe4ff7507d27543cdfbeec7db108a96b82d694465f06d64e8577562b05d0520b41710088e0a33cc50

@@ -1,5 +1,5 @@
 import { NextPage } from 'next';
-import _ from 'lodash/fp';
+import filter from 'lodash/fp/filter';
 import { getProviders, getSession, ClientSafeProvider } from 'next-auth/react';
 import PageLayout from '@components/layout/PageLayout';
 import LoginButtons from '@components/domain/LoginButtons';
@@ -25,7 +25,7 @@ export const getServerSideProps = async () => {
 
   return {
     props: {
-      providers: _.filter(
+      providers: filter(
         (provider: ClientSafeProvider) => provider.type !== 'credentials',
       )(providers),
     },

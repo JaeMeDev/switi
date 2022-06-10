@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "yarn db:generate && next build",
     "start": "next start",
-    "build-stats": "cross-env ANALYZE=true npm run build",
+    "build-stats": "cross-env ANALYZE=true yarn run build",
     "db:generate": "yarn pnpify prisma generate",
     "type": "tsc",
     "lint": "eslint --ext ts,tsx .",
